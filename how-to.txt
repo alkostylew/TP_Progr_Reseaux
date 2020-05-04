@@ -1,0 +1,21 @@
+How to start Server
+===================
+
+get into command line: cmd
+
+got to project build path:
+cd C:\java_dev\projects_intellj\TP_Progr_Réseaux\out\production\TP_Progr_Réseaux
+
+run class:
+java tp_progr_reseaux.ServeurMT
+
+How to start Client Telnet
+==========================
+
+enable telnet inside windows (if needed)
+Panel Control -> Programas -> Ativar ou desativar recursos do windows -> Telnet Client
+
+cmd
+
+telnet localhost 1234
+
