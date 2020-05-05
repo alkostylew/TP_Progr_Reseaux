@@ -4,10 +4,11 @@ How to start Server
 get into command line: cmd
 
 got to project build path:
-cd C:\java_dev\projects_intellj\TP_Progr_Réseaux\out\production\TP_Progr_Réseaux
+cd C:\java_dev\projects_intellj\TP_Progr_Reseaux\out\production\TP_Progr_Reseaux
 
 run class:
 java tp_progr_reseaux.ServeurMT
+java tp_progr_reseaux.ServeurChat
 
 How to start Client Telnet
 ==========================

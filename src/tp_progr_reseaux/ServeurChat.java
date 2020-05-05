@@ -61,7 +61,6 @@ public class ServeurChat extends Thread {
                 InputStream is = socketClient.getInputStream();
                 InputStreamReader isr = new InputStreamReader(is);
                 BufferedReader br = new BufferedReader(isr);
-                br.readLine();
 
                 PrintWriter pw = new PrintWriter(socketClient.getOutputStream(), true);
                 String ipClient = socketClient.getRemoteSocketAddress().toString();
